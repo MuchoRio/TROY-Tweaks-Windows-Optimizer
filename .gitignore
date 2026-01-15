@@ -1,0 +1,18 @@
+## Build and Output Folders
+bin/
+obj/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio / JetBrains
+.vs/
+.idea/
+*.DotSettings.user
+
+## Crash dumps and local backups
+*.dmp
+*.reg
+*.log
