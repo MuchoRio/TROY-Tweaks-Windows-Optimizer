@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A74FB1F2-0D2B-4D09-AC9A-3FA352D2C2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTX.Optimizer.Core", "src\NRTX.Optimizer.Core\NRTX.Optimizer.Core.csproj", "{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTX.Optimizer.Cli", "src\NRTX.Optimizer.Cli\NRTX.Optimizer.Cli.csproj", "{5C578068-0347-4A99-8F8C-0283F22D26DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTX.Optimizer.Gui", "src\NRTX.Optimizer.Gui\NRTX.Optimizer.Gui.csproj", "{69DC7388-716D-45F3-AFB3-08C7CD3BEE74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7171F7D-11D3-44B2-9DEC-5E44F876EC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRTX.Optimizer.Tests", "tests\NRTX.Optimizer.Tests\NRTX.Optimizer.Tests.csproj", "{E570AE9C-3DBF-43F3-AAFA-34D8B9675183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C578068-0347-4A99-8F8C-0283F22D26DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C578068-0347-4A99-8F8C-0283F22D26DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C578068-0347-4A99-8F8C-0283F22D26DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C578068-0347-4A99-8F8C-0283F22D26DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DC7388-716D-45F3-AFB3-08C7CD3BEE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DC7388-716D-45F3-AFB3-08C7CD3BEE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DC7388-716D-45F3-AFB3-08C7CD3BEE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DC7388-716D-45F3-AFB3-08C7CD3BEE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E570AE9C-3DBF-43F3-AAFA-34D8B9675183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E570AE9C-3DBF-43F3-AAFA-34D8B9675183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E570AE9C-3DBF-43F3-AAFA-34D8B9675183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E570AE9C-3DBF-43F3-AAFA-34D8B9675183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5E4447D-8A2E-4CA8-88F1-EE06DE9153FE} = {A74FB1F2-0D2B-4D09-AC9A-3FA352D2C2CA}
+		{5C578068-0347-4A99-8F8C-0283F22D26DE} = {A74FB1F2-0D2B-4D09-AC9A-3FA352D2C2CA}
+		{69DC7388-716D-45F3-AFB3-08C7CD3BEE74} = {A74FB1F2-0D2B-4D09-AC9A-3FA352D2C2CA}
+		{E570AE9C-3DBF-43F3-AAFA-34D8B9675183} = {E7171F7D-11D3-44B2-9DEC-5E44F876EC3E}
+	EndGlobalSection
+EndGlobal
